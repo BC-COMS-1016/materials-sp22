@@ -1,0 +1,10 @@
+test = {   'name': 'q6_7',
+    'points': 3,
+    'suites': [   {   'cases': [   {   'code': ">>> # It looks like your table doesn't have all 3 columns that are in the inventory table;\n>>> assert remaining_inventory.num_columns == 3\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert remaining_inventory.where(1, \'grape\').select("box ID")[0] == np.array([57930])\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
