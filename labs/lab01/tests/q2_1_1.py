@@ -1,0 +1,10 @@
+test = {   'name': 'q2_1_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # It looks like you forgot to assign a value to sine_of_pi_over_four;\n>>> assert sine_of_pi_over_four != ...\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # HINT: You can write the sine of 2*pi as:;\n>>> #  math.sin(2 * math.pi);\n>>> assert round(sine_of_pi_over_four, 4) == 0.7071\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
