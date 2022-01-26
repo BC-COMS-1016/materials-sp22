@@ -1,0 +1,10 @@
+test = {   'name': 'q2_2',
+    'points': 2,
+    'suites': [   {   'cases': [   {'code': '>>> assert elements_of_some_numbers.column(0).item(2)  == "third"\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert elements_of_some_numbers.column(0).item(3)  == "fourth"\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert elements_of_some_numbers.column(1).item(0)  == 0\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert elements_of_some_numbers.column(1).item(3)  == 3\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

@@ -1,0 +1,10 @@
+test = {   'name': 'q4_2',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # It looks like you forgot to choose a number;\n>>> assert type(cumulative_sum_answer) == int\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # It looks like you forgot to set cumulative_sum_answer to 1, 2, or 3;\n>>> assert 1 <= cumulative_sum_answer <= 3\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
