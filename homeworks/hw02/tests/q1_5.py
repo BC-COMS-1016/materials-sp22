@@ -1,0 +1,10 @@
+test = {   'name': 'q1_5',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # Remember to run the previous cell before running this test;\n>>> assert by_pter != ...\n', 'hidden': False, 'locked': False},
+                                   {'code': ">>> # It looks like you forgot to sort the table;\n>>> assert by_pter.row(0).Date != '1994-01-01'\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> # It looks like you sorted the table in increasing order;\n>>> assert by_pter.row(0).Date != '2000-01-01'\n", 'hidden': False, 'locked': False},
+                                   {'code': '>>> # Remember to add a column to the Table called PTER;\n>>> assert "PTER" in by_pter.labels\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
