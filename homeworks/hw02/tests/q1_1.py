@@ -1,0 +1,13 @@
+test = {   'name': 'q1_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # Remember to run the previous cell before running this test;\n>>> assert unemployment != ...\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # It looks like you forgot to assign the name unemployment to a Table type;\n>>> assert type(unemployment) == Table\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert unemployment.num_rows == 90\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert unemployment.num_columns == 3\n', 'hidden': False, 'locked': False},
+                                   {'code': ">>> # It looks like you read in the wrong table;\n>>> assert unemployment.labels == ('Date', 'NEI', 'NEI-PTER')\n", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

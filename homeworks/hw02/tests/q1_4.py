@@ -1,0 +1,11 @@
+test = {   'name': 'q1_4',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # pter should be assigned an array;\n>>> assert type(pter) == np.ndarray\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # It looks like you subtracted NEI by NEI-PTER instead of NEI-PTER by NEI;\n>>> assert round(pter.item(6), 4) != -1.1282\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert round(pter.item(6), 4) == 1.1282\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
