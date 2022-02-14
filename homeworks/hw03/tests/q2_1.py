@@ -1,0 +1,12 @@
+test = {   'name': 'q2_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> assert prof_names.num_columns == 2\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert prof_names.num_rows == 71\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # Make sure that you renamed the column labels;\n>>> assert np.asarray(prof_names.labels).item(1) != "name identity"\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert np.asarray(prof_names.labels).item(1) == "faculty"\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
