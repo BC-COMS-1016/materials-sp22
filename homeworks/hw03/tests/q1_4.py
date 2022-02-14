@@ -1,0 +1,10 @@
+test = {   'name': 'q1_4',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': '>>> # There should only be 2 columns in the califronia_burritos Table.;\n>>> assert california_burritos.num_columns == 2\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> ## There should be 46 rows in california_burritos;\n>>> assert california_burritos.num_rows == 46\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
