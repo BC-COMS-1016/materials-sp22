@@ -1,0 +1,10 @@
+test = {   'name': 'q1_2',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> # It looks like you included all the scores for each quarter in final_scores;\n>>> assert final_scores.num_columns != 11\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> assert set(final_scores.labels) == set(['CU Score', 'Opponent', 'Opponent Score'])\n", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
