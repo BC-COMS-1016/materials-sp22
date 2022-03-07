@@ -1,0 +1,10 @@
+test = {   'name': 'q3_4',
+    'points': 3,
+    'suites': [   {   'cases': [   {'code': ">>> assert distribution_1 in ['empirical', 'probability']\n", 'hidden': False, 'locked': False},
+                                   {'code': ">>> assert distribution_2 in ['empirical', 'probability']\n", 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert type(player_count_1) == int and type(player_count_2) == int\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert type(area_total_1) == int and type(area_total_2) == int\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

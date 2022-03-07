@@ -1,0 +1,10 @@
+test = {   'name': 'q2_3',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> assert len(simulate_several_key_strikes(20)) == 20\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # The function simulate_several_key_strikes should return a string;\n>>> assert isinstance(simulate_several_key_strikes(4), str)\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

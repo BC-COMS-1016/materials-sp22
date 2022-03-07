@@ -1,0 +1,16 @@
+test = {   'name': 'q4_3',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': '>>> # It looks like you forgot to add sample maximum magnitudes to the maximums array;\n>>> assert len(maximums) != 0\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> # It looks like you forgot to add sample maximum magnitudes to the maximums array during each of the 5000 iterations;\n'
+                                               '>>> assert len(maximums) == 5000\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> # The simulated maximum cannot be bigger than the actual maximum;\n>>> assert max(maximums) <= max(earthquakes.column("mag"))\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

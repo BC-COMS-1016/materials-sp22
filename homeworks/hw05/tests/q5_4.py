@@ -1,0 +1,12 @@
+test = {   'name': 'q5_4',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': '>>> # Remember to add a statistic to the array during each simulation;\n>>> assert len(deck_statistics) == repetitions\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> # Each element in the array should be between 0 and 13 (exclusive);\n>>> assert all([0 <= n <= 13 for n in deck_statistics])\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
