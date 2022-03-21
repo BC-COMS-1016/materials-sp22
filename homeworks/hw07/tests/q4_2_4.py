@@ -1,0 +1,10 @@
+test = {   'name': 'q4_2_4',
+    'points': 2,
+    'suites': [   {   'cases': [   {'code': '>>> assert 115 <= np.mean(bootstrap_mean_based_estimates) <= 130\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # Make sure bootstrap_mean_based_estimates has 7,500 estimates;\n>>> assert len(bootstrap_mean_based_estimates) == 7500\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
