@@ -1,0 +1,12 @@
+test = {   'name': 'q1_15',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> # Make sure smooth=True is the second parameter when the function minimized() is called;\n>>> assert 1 <= minimized_parameters.item(0) <= 2 \n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {   'code': '>>> # Make sure smooth=True is the second parameter when the function minimized() is called;\n>>> assert -7 <= minimized_parameters.item(1) <= -6\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

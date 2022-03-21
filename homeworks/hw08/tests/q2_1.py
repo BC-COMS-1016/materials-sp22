@@ -1,0 +1,10 @@
+test = {   'name': 'q2_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # Make sure binary_options was set to an array;\n>>> assert type(binary_options) == np.ndarray\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # It should be a two element array that represents a binary distribution;\n>>> assert sorted(binary_options) == sorted(set([0, 1]))\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
