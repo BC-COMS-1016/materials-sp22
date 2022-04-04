@@ -1,0 +1,11 @@
+test = {   'name': 'q1_5',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': ">>> # Remember to check the names of the table's columns;\n>>> assert largest.labels == ('name', 'poverty_total')\n", 'hidden': False, 'locked': False},
+                                   {   'code': ">>> # India is the country with the largest number of people ;\n>>> #living in extreme poverty;\n>>> assert largest.column(0).item(0) == 'India'\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert largest.num_rows == 10\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

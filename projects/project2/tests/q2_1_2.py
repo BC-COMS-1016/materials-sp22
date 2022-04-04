@@ -1,0 +1,10 @@
+test = {   'name': 'q2_1_2',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> # Make sure we have one row per year;\n>>> assert causes_for_plotting.num_rows == 116\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # Make sure we have one column for the different ways to die in;\n>>> # this datasets;\n>>> assert causes_for_plotting.num_columns == 6\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

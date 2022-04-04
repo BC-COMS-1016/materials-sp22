@@ -1,0 +1,10 @@
+test = {   'name': 'q2_2_2',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': '>>> # Make sure the function returns a float;\n>>> assert type(diabetes_statistic()) in set([float, np.float64, np.float32])\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> np.random.seed(1234);\n>>> assert np.isclose(round(diabetes_statistic(), 5) - 0.00045, 0)\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
