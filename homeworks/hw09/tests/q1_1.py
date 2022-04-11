@@ -1,0 +1,10 @@
+test = {   'name': 'q1_1',
+    'points': 1,
+    'suites': [   {   'cases': [   {   'code': ">>> # It looks like you forgot to add Career Length as a column to the table;\n>>> assert 'Career Length' in nfl.labels\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': ">>> assert np.mean(nfl.take(np.arange(10)).column('Career Length')) == 6.4\n", 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
