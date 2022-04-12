@@ -1,0 +1,13 @@
+test = {   'name': 'q3_2_8',
+    'points': 3,
+    'suites': [   {   'cases': [   {   'code': ">>> # Make sure the first column in Genre and the second is Distance;\n>>> assert genre_and_distances.labels == ('Genre', 'Distance')\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert genre_and_distances.num_rows == train_movies.num_rows\n', 'hidden': False, 'locked': False},
+                                   {   'code': ">>> assert np.allclose(genre_and_distances.column('Distance'), sorted(fast_distances(test_my_features.row(0), train_my_features))   )\n",
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

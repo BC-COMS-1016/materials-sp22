@@ -1,0 +1,11 @@
+test = {   'name': 'q2_1_4',
+    'points': 3,
+    'suites': [   {   'cases': [   {   'code': ">>> # Make sure close_movies has these columns;\n>>> assert set(close_movies.labels) == {'Genre', 'Title', 'distance from python', 'feel', 'water'}\n",
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> # Make sure close_movies only has 5 rows;\n>>> assert close_movies.num_rows == 5\n', 'hidden': False, 'locked': False},
+                                   {'code': '>>> assert close_movies.column(0).item(0) != "monty python and the holy grail"\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

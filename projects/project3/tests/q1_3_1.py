@@ -1,0 +1,10 @@
+test = {   'name': 'q1_3_1',
+    'points': 2,
+    'suites': [   {   'cases': [   {   'code': '>>> # Make sure outer and space were converted to standard units;\n>>> assert not np.isclose(outer_space_r, 6.5239e-9)\n',
+                                       'hidden': False,
+                                       'locked': False},
+                                   {'code': '>>> assert 0.15 <= outer_space_r <= 0.3\n', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}

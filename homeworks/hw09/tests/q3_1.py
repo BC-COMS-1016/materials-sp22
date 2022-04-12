@@ -1,0 +1,10 @@
+test = {   'name': 'q3_1',
+    'points': 2,
+    'suites': [   {   'cases': [   {'code': '>>> assert type(evans_career_length_pred) in set([float, np.float32, np.float64])\n', 'hidden': False, 'locked': False},
+                                   {   'code': '>>> # It looks like you forgot to take a sample (or use the sample);\n>>> assert np.round(evans_career_length_pred, 8) != 3.88690946\n',
+                                       'hidden': False,
+                                       'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
